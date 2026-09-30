@@ -5,7 +5,7 @@
 <img alt="typing" src="https://readme-typing-svg.demolab.com?font=Inter&size=18&duration=3000&pause=650&center=true&vCenter=true&width=900&lines=Full%20daily%20cycle%20automation%20for%20the%20Lovaum%20Miniapp;Earning%20is%20started%20once%20and%20the%20mined%20profit%20is%20claimed%20every%20cycle;The%20channel%20gate%20plus%20the%20one%20time%20signup%20bonus%20are%20handled%20automatically;Reward%20ads%20and%20reward%20boxes%20credited%20only%20after%20the%20server%20confirms;Multi%20account%20with%20proxy%20support%20and%20a%20live%20countdown%20between%20cycles"/>
 
 <p>
-  <img alt="python" src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white"/>
+  <img alt="python" src="https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white"/>
   <img alt="platform" src="https://img.shields.io/badge/Platform-Lovaum%20Miniapp-111111"/>
   <img alt="multi-account" src="https://img.shields.io/badge/Multi--Account-Supported-111111"/>
   <img alt="proxy" src="https://img.shields.io/badge/Proxy-Supported-111111"/>
@@ -36,7 +36,7 @@
 
 ## Requirements
 
-- Python `3.8+`
+- Python `3.12+`
 - Git
 
 ---
@@ -122,10 +122,6 @@ The watch and earn slot is read first so the bot knows how many reward points ar
 ### Reward Boxes
 
 Every sealed reward box held by the account is opened one by one and each opening prints the power points the server credited.
-
-### Payout Request
-
-When the data line carries a TON address, the bot saves it and sends a payout request once the mined balance reaches the minimum the server reports. A payout that the server refuses is reported with the reason it gave, and an account without an address simply skips this phase.
 
 ### Multi Account
 
